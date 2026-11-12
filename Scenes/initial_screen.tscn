@@ -75,7 +75,7 @@ text = "RADICAL LIBRARY"
 [node name="Button3" type="Button" parent="main_container/VBoxContainer/button_container/Control3" unique_id=1769569020]
 layout_mode = 2
 size_flags_vertical = 3
-text = "SETTINGS"
+text = "SETTINGSS"
 
 [node name="Control5" type="Control" parent="main_container/VBoxContainer/button_container" unique_id=409789738]
 layout_mode = 2
