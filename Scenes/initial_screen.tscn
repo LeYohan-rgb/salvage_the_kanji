@@ -39,13 +39,18 @@ layout_mode = 2
 size_flags_vertical = 3
 size_flags_stretch_ratio = 3.0
 
-[node name="ColorRect" type="ColorRect" parent="main_container/VBoxContainer/logo_container" unique_id=1539884462]
+[node name="Label" type="Label" parent="main_container/VBoxContainer/logo_container" unique_id=272731115]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_font_sizes/font_size = 55
+text = "SALVAGE THE
+KANJI"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="button_container" type="HBoxContainer" parent="main_container/VBoxContainer" unique_id=1230444954]
 layout_mode = 2
@@ -56,26 +61,67 @@ size_flags_stretch_ratio = 2.0
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="Control3" type="VBoxContainer" parent="main_container/VBoxContainer/button_container" unique_id=623650233]
+[node name="VBoxContainer" type="VBoxContainer" parent="main_container/VBoxContainer/button_container" unique_id=1132659185]
 layout_mode = 2
 size_flags_horizontal = 3
-size_flags_stretch_ratio = 1.5
-theme_override_constants/separation = 10
+size_flags_stretch_ratio = 5.0
 
-[node name="Button" type="Button" parent="main_container/VBoxContainer/button_container/Control3" unique_id=1157069691]
+[node name="btn_container" type="HBoxContainer" parent="main_container/VBoxContainer/button_container/VBoxContainer" unique_id=1384670421]
 layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 2.0
+
+[node name="Button" type="Button" parent="main_container/VBoxContainer/button_container/VBoxContainer/btn_container" unique_id=1157069691]
+layout_mode = 2
+size_flags_horizontal = 3
 size_flags_vertical = 3
 text = "PLAY"
 
-[node name="Button2" type="Button" parent="main_container/VBoxContainer/button_container/Control3" unique_id=392010555]
+[node name="Button2" type="Button" parent="main_container/VBoxContainer/button_container/VBoxContainer/btn_container" unique_id=392010555]
 layout_mode = 2
+size_flags_horizontal = 3
 size_flags_vertical = 3
-text = "RADICAL LIBRARY"
+text = "
 
-[node name="Button3" type="Button" parent="main_container/VBoxContainer/button_container/Control3" unique_id=1769569020]
+
+
+
+PLAY"
+
+[node name="Button3" type="Button" parent="main_container/VBoxContainer/button_container/VBoxContainer/btn_container" unique_id=1769569020]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "SETTINGS"
+
+[node name="btn_lbl_container" type="HBoxContainer" parent="main_container/VBoxContainer/button_container/VBoxContainer" unique_id=188808774]
 layout_mode = 2
 size_flags_vertical = 3
-text = "SETTINGSS"
+
+[node name="Label" type="Label" parent="main_container/VBoxContainer/button_container/VBoxContainer/btn_lbl_container" unique_id=608645132]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 20
+text = "RADICALS"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="main_container/VBoxContainer/button_container/VBoxContainer/btn_lbl_container" unique_id=2041988477]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 20
+text = "PLAY"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="main_container/VBoxContainer/button_container/VBoxContainer/btn_lbl_container" unique_id=178620326]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 20
+text = "SETTINGS"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Control5" type="Control" parent="main_container/VBoxContainer/button_container" unique_id=409789738]
 layout_mode = 2
