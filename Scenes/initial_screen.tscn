@@ -1,0 +1,90 @@
+[gd_scene format=3 uid="uid://dvxtql3oq2gor"]
+
+[node name="initial_screen" type="Control" unique_id=983055809]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=291452976]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="main_container" type="HBoxContainer" parent="." unique_id=408205664]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Control" type="Control" parent="main_container" unique_id=225719027]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="main_container" unique_id=1070029034]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 3.0
+
+[node name="Control" type="Control" parent="main_container/VBoxContainer" unique_id=1843796464]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="logo_container" type="Control" parent="main_container/VBoxContainer" unique_id=1513888727]
+layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 3.0
+
+[node name="ColorRect" type="ColorRect" parent="main_container/VBoxContainer/logo_container" unique_id=1539884462]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="button_container" type="HBoxContainer" parent="main_container/VBoxContainer" unique_id=1230444954]
+layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 2.0
+
+[node name="Control" type="Control" parent="main_container/VBoxContainer/button_container" unique_id=1590185237]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Control3" type="VBoxContainer" parent="main_container/VBoxContainer/button_container" unique_id=623650233]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 1.5
+theme_override_constants/separation = 10
+
+[node name="Button" type="Button" parent="main_container/VBoxContainer/button_container/Control3" unique_id=1157069691]
+layout_mode = 2
+size_flags_vertical = 3
+text = "PLAY"
+
+[node name="Button2" type="Button" parent="main_container/VBoxContainer/button_container/Control3" unique_id=392010555]
+layout_mode = 2
+size_flags_vertical = 3
+text = "RADICAL LIBRARY"
+
+[node name="Button3" type="Button" parent="main_container/VBoxContainer/button_container/Control3" unique_id=1769569020]
+layout_mode = 2
+size_flags_vertical = 3
+text = "SETTINGS"
+
+[node name="Control5" type="Control" parent="main_container/VBoxContainer/button_container" unique_id=409789738]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Control4" type="Control" parent="main_container/VBoxContainer" unique_id=989902100]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Control3" type="Control" parent="main_container" unique_id=919584066]
+layout_mode = 2
+size_flags_horizontal = 3
