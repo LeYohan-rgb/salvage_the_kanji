@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://dvxtql3oq2gor"]
 
+[ext_resource type="Script" uid="uid://djnfuddcewp3o" path="res://Scripts/initial_screen.gd" id="1_dy12b"]
+
 [node name="initial_screen" type="Control" unique_id=983055809]
 layout_mode = 3
 anchors_preset = 15
@@ -7,6 +9,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_dy12b")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=291452976]
 layout_mode = 0
@@ -72,13 +75,13 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 size_flags_stretch_ratio = 2.0
 
-[node name="Button" type="Button" parent="main_container/VBoxContainer/button_container/VBoxContainer/btn_container" unique_id=1157069691]
+[node name="radical_btn" type="Button" parent="main_container/VBoxContainer/button_container/VBoxContainer/btn_container" unique_id=1157069691]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 text = "PLAY"
 
-[node name="Button2" type="Button" parent="main_container/VBoxContainer/button_container/VBoxContainer/btn_container" unique_id=392010555]
+[node name="play_btn" type="Button" parent="main_container/VBoxContainer/button_container/VBoxContainer/btn_container" unique_id=392010555]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -89,7 +92,7 @@ text = "
 
 PLAY"
 
-[node name="Button3" type="Button" parent="main_container/VBoxContainer/button_container/VBoxContainer/btn_container" unique_id=1769569020]
+[node name="settings_btn" type="Button" parent="main_container/VBoxContainer/button_container/VBoxContainer/btn_container" unique_id=1769569020]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -134,3 +137,5 @@ size_flags_vertical = 3
 [node name="Control3" type="Control" parent="main_container" unique_id=919584066]
 layout_mode = 2
 size_flags_horizontal = 3
+
+[connection signal="pressed" from="main_container/VBoxContainer/button_container/VBoxContainer/btn_container/play_btn" to="." method="_on_play_btn_pressed"]

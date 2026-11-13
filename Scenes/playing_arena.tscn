@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://diitw4yw1ls3i"]
+
+[ext_resource type="Script" uid="uid://d25x0lbfplo8i" path="res://Scripts/playing_arena.gd" id="1_kvfbl"]
+
+[node name="playing_arena" type="Control" unique_id=1805332936]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_kvfbl")
+
+[node name="timers" type="Node2D" parent="." unique_id=311871870]
+
+[node name="begin_game_timer" type="Timer" parent="timers" unique_id=2279761]
+
+[connection signal="timeout" from="timers/begin_game_timer" to="." method="_on_begin_game_timer_timeout"]
