@@ -76,45 +76,30 @@ var kanji : Dictionary = {
 		"grade": 1
 	},
 	12: {
-		"name": "round, yen",
+		"name": "feeling",
 		"structure": 10,
-		1: "wide",
-		2: "lid",
+		1: ["breath"],
+		2: ["slash", "dot"],
 		"grade": 1
 	},
 	13: {
-		"name": "round, yen",
-		"structure": 10,
-		1: "wide",
-		2: "lid",
+		"name": "nine",
+		"structure": 12,
+		1: ["slash", "second"],
 		"grade": 1
 	},
 	14: {
-		"name": "round, yen",
-		"structure": 10,
-		1: "wide",
-		2: "lid",
+		"name": "rest",
+		"structure": 1,
+		1: ["man"],
+		2: ["tree"],
 		"grade": 1
 	},
-	15: {
-		"name": "round, yen",
-		"structure": 10,
-		1: "wide",
-		2: "lid",
-		"grade": 1
-	},
-	16: {
-		"name": "round, yen",
-		"structure": 10,
-		1: "wide",
-		2: "lid",
-		"grade": 1
-	},
-	17: {
-		"name": "round, yen",
-		"structure": 10,
-		1: "wide",
-		2: "lid",
+	14: {
+		"name": "rest",
+		"structure": 1,
+		1: ["man"],
+		2: ["tree"],
 		"grade": 1
 	},
 	
