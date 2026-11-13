@@ -95,12 +95,106 @@ var kanji : Dictionary = {
 		2: ["tree"],
 		"grade": 1
 	},
-	14: {
-		"name": "rest",
-		"structure": 1,
-		1: ["man"],
-		2: ["tree"],
+	15: {
+		"name": "ball",
+		"structure": 12,
+		1: ["king", "dot"],
 		"grade": 1
 	},
-	
+	16: {
+		"name": "gold",
+		"structure": 12,
+		1: ["gold"],
+		"grade": 1
+	},
+	17: {
+		"name": "sky",
+		"structure": 2,
+		1: ["cave"],
+		2: ["work"],
+		"grade": 1
+	},
+	18: {
+		"name": "month, moon",
+		"structure": 12,
+		1: ["moon"],
+		"grade": 1
+	},
+	19: {
+		"name": "dog",
+		"structure": 12,
+		1: ["dog"],
+		"grade": 1
+	},
+	20: {
+		"name": "see",
+		"structure": 12,
+		1: ["see"],
+		"grade": 1
+	},
+	21: {
+		"name": "five",
+		"structure": 12,
+		1: ["two", "slash", "dot"],
+		"grade": 1
+	},
+	22: {
+		"name": "school",
+		"structure": 1,
+		1: ["tree"],
+		2: ["lid", "father"],
+		"grade": 1
+	},
+	23: {
+		"name": "left (direction)",
+		"structure": 4,
+		1: ["one", "slash"],
+		2: ["work"],
+		"grade": 1
+	},
+	24: {
+		"name": "three",
+		"structure": 2,
+		1: ["one"],
+		2: ["two"],
+		"grade": 1
+	},
+	25: {
+		"name": "mountain",
+		"structure": 12,
+		1: ["mountain"],
+		"grade": 1
+	},
+	26: {
+		"name": "child",
+		"structure": 12,
+		1: ["child"],
+		"grade": 1
+	},
+	27: {
+		"name": "four",
+		"structure": 6,
+		1: ["enclosure"],
+		2: ["legs"],
+		"grade": 1
+	},
+	28: {
+		"name": "thread",
+		"structure": 12,
+		1: ["thread"],
+		"grade": 1
+	},
+	29: {
+		"name": "letter",
+		"structure": 2,
+		1: ["roof"],
+		2: ["child"],
+		"grade": 1
+	},
+	30: {
+		"name": "ear",
+		"structure": 12,
+		1: ["ear"],
+		"grade": 1
+	},
 }
