@@ -478,7 +478,8 @@ var kanji : Dictionary = {
 	75: {
 		"name": "name",
 		"structure": 2,
-		1: ["evening", "mouth"],
+		1: ["evening"],
+		2: ["mouth"],
 		"grade": 1
 	},
 	76: {
@@ -529,7 +530,9 @@ var kanji : Dictionary = {
 	83: {
 		"name": "cloud",
 		"structure": 3,
-		1: ["rain", "two", "private"],
+		1: ["rain"],
+		2: ["two"],
+		3: ["private"],
 		"grade": 2
 	},
 	84: {
@@ -685,6 +688,108 @@ var kanji : Dictionary = {
 		"structure": 1,
 		1: ["speech"],
 		2: ["oneself"],
+		"grade": 2
+	},
+	106: {
+		"name": "return",
+		"structure": 1,
+		1: ["sword"],
+		2: ["pig's head", "cover", "scarf"],
+		"grade": 2
+	},
+	107: {
+		"name": "bow",
+		"structure": 12,
+		1: ["bow"],
+		"grade": 2
+	},
+	108: {
+		"name": "fish",
+		"structure": 12,
+		1: ["fish"],
+		"grade": 2
+	},
+	109: {
+		"name": "capital",
+		"structure": 3,
+		1: ["lid"],
+		2: ["mouth"],
+		3: ["small"],
+		"grade": 2
+	},
+	110: {
+		"name": "strong",
+		"structure": 1,
+		1: ["bow"],
+		2: ["private", "bug"],
+		"grade": 2
+	},
+	111: {
+		"name": "teach",
+		"structure": 1,
+		1: ["old", "child"],
+		2: ["rap"],
+		"grade": 2
+	},
+	112: {
+		"name": "near",
+		"structure": 5,
+		1: ["axe"],
+		2: ["walk"],
+		"grade": 2
+	},
+	113: {
+		"name": "near",
+		"structure": 5,
+		1: ["axe"],
+		2: ["walk"],
+		"grade": 2
+	},
+	114: {
+		"name": "older brother",
+		"structure": 2,
+		1: ["mouth"],
+		2: ["legs"],
+		"grade": 2
+	},
+	115: {
+		"name": "shape",
+		"structure": 1,
+		1: ["one", "two hands"],
+		2: ["bristle"],
+		"grade": 2
+	},
+	116: {
+		"name": "measure",
+		"structure": 1,
+		1: ["speech"],
+		2: ["ten"],
+		"grade": 2
+	},
+	117: {
+		"name": "origin",
+		"structure": 2,
+		1: ["two"],
+		2: ["legs"],
+		"grade": 2
+	},
+	118: {
+		"name": "say",
+		"structure": 12,
+		1: ["speech"],
+		"grade": 2
+	},
+	119: {
+		"name": "field",
+		"structure": 4,
+		1: ["cliff"],
+		2: ["white", "small"],
+		"grade": 2
+	},
+	120: {
+		"name": "door",
+		"structure": 12,
+		1: ["door"],
 		"grade": 2
 	},
 }
