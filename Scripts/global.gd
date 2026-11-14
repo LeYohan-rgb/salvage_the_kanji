@@ -247,7 +247,7 @@ var kanji : Dictionary = {
 		"grade": 1
 	},
 	39: {
-		"name": "small",
+		"name": "up",
 		"structure": 2,
 		1: ["divination"],
 		2: ["one"],
@@ -263,7 +263,129 @@ var kanji : Dictionary = {
 	41: {
 		"name": "person",
 		"structure": 12,
-		1: ["person"],
+		1: ["man"],
+		"grade": 1
+	},
+	42: {
+		"name": "water",
+		"structure": 12,
+		1: ["water"],
+		"grade": 1
+	},
+	43: {
+		"name": "correct",
+		"structure": 2,
+		1: ["one"],
+		2: ["stop"],
+		"grade": 1
+	},
+	44: {
+		"name": "life",
+		"structure": 12,
+		1: ["life"],
+		"grade": 1
+	},
+	45: {
+		"name": "blue",
+		"structure": 12,
+		1: ["blue"],
+		"grade": 1
+	},
+	46: {
+		"name": "evening",
+		"structure": 12,
+		1: ["evening"],
+		"grade": 1
+	},
+	47: {
+		"name": "stone",
+		"structure": 12,
+		1: ["stone"],
+		"grade": 1
+	},
+	48: {
+		"name": "red",
+		"structure": 12,
+		1: ["red"],
+		"grade": 1
+	},
+	49: {
+		"name": "thousand",
+		"structure": 2,
+		1: ["slash"],
+		2: ["ten"],
+		"grade": 1
+	},
+	50: {
+		"name": "river",
+		"structure": 12,
+		1: ["river"],
+		"grade": 1
+	},
+	51: {
+		"name": "previous",
+		"structure": 2,
+		1: ["slash", "earth"],
+		2: ["legs"],
+		"grade": 1
+	},
+	52: {
+		"name": "early",
+		"structure": 2,
+		1: ["sun"],
+		2: ["ten"],
+		"grade": 1
+	},
+	53: {
+		"name": "grass",
+		"structure": 3,
+		1: ["grass"],
+		2: ["sun"],
+		3: ["ten"],
+		"grade": 1
+	},
+	54: {
+		"name": "foot",
+		"structure": 12,
+		1: ["foot"],
+		"grade": 1
+	},
+	55: {
+		"name": "village",
+		"structure": 1,
+		1: ["tree"],
+		2: ["thumb"],
+		"grade": 1
+	},
+	56: {
+		"name": "large",
+		"structure": 12,
+		1: ["big"],
+		"grade": 1
+	},
+	57: {
+		"name": "male",
+		"structure": 2,
+		1: ["field"],
+		2: ["power"],
+		"grade": 1
+	},
+	58: {
+		"name": "bamboo",
+		"structure": 12,
+		1: ["bamboo"],
+		"grade": 1
+	},
+	59: {
+		"name": "middle",
+		"structure": 12,
+		1: ["mouth", "line"],
+		"grade": 1
+	},
+	60: {
+		"name": "insect",
+		"structure": 12,
+		1: ["insect"],
 		"grade": 1
 	},
 }
