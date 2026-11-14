@@ -513,4 +513,73 @@ var kanji : Dictionary = {
 		2: ["eight"],
 		"grade": 1
 	},
+	81: {
+		"name": "pull",
+		"structure": 1,
+		1: ["bow"],
+		2: ["line"],
+		"grade": 2
+	},
+	82: {
+		"name": "feather",
+		"structure": 12,
+		1: ["feather"],
+		"grade": 2
+	},
+	83: {
+		"name": "cloud",
+		"structure": 3,
+		1: ["rain", "two", "private"],
+		"grade": 2
+	},
+	84: {
+		"name": "garden",
+		"structure": 6,
+		1: ["enclosure"],
+		2: ["earth", "mouth", "clothes"],
+		"grade": 2
+	},
+	85: {
+		"name": "far",
+		"structure": 5,
+		1: ["earth", "mouth", "clothes"],
+		2: ["walk"],
+		"grade": 2
+	},
+	86: {
+		"name": "what",
+		"structure": 1,
+		1: ["man"],
+		2: ["one", "mouth", "hook"],
+		"grade": 2
+	},
+	87: {
+		"name": "section",
+		"structure": 1,
+		1: ["grain"],
+		2: ["dipper"],
+		"grade": 2
+	},
+	88: {
+		"name": "summer",
+		"structure": 3,
+		1: ["one"],
+		2: ["self"],
+		3: ["go slowly"],
+		"grade": 2
+	},
+	89: {
+		"name": "house",
+		"structure": 2,
+		1: ["roof"],
+		2: ["pig"],
+		"grade": 2
+	},
+	90: {
+		"name": "song",
+		"structure": 1,
+		1: ["one", "mouth", "line", "one", "mouth", "hook"],
+		2: ["lack"],
+		"grade": 2
+	},
 }
