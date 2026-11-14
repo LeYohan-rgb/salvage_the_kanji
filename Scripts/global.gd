@@ -582,4 +582,74 @@ var kanji : Dictionary = {
 		2: ["lack"],
 		"grade": 2
 	},
+	91: {
+		"name": "tableau",
+		"structure": 8,
+		1: ["one", "field"],
+		2: ["container"],
+		"grade": 2
+	},
+	92: {
+		"name": "times",
+		"structure": 6,
+		1: ["enclosure"],
+		2: ["mouth"],
+		"grade": 2
+	},
+	93: {
+		"name": "association",
+		"structure": 3,
+		1: ["man"],
+		2: ["one"],
+		3: ["private"],
+		"grade": 2
+	},
+	94: {
+		"name": "sea",
+		"structure": 1,
+		1: ["water"],
+		2: ["slash", "one", "mother"],
+		"grade": 2
+	},
+	95: {
+		"name": "picture",
+		"structure": 1,
+		1: ["thread"],
+		2: ["man", "one", "private"],
+		"grade": 2
+	},
+	96: {
+		"name": "outside",
+		"structure": 1,
+		1: ["evening"],
+		2: ["divination"],
+		"grade": 2
+	},
+	97: {
+		"name": "angle",
+		"structure": 12,
+		1: ["horn"],
+		"grade": 2
+	},
+	98: {
+		"name": "pleasure",
+		"structure": 2,
+		1: ["white", "ice", "ice"],
+		2: ["tree"],
+		"grade": 2
+	},
+	99: {
+		"name": "active",
+		"structure": 1,
+		1: ["water"],
+		2: ["slash", "ten", "mouth"],
+		"grade": 2
+	},
+	100: {
+		"name": "interval",
+		"structure": 7,
+		1: ["gate"],
+		2: ["sun"],
+		"grade": 2
+	},
 }
