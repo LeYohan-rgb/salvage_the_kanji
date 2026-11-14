@@ -652,4 +652,39 @@ var kanji : Dictionary = {
 		2: ["sun"],
 		"grade": 2
 	},
+	101: {
+		"name": "circle",
+		"structure": 12,
+		1: ["slash", "second", "dot"],
+		"grade": 2
+	},
+	102: {
+		"name": "boulder",
+		"structure": 3,
+		1: ["mountain"],
+		2: ["one", "slash"],
+		3: ["mouth"],
+		"grade": 2
+	},
+	103: {
+		"name": "face",
+		"structure": 1,
+		1: ["stand", "slash", "bristle"],
+		2: ["leaf"],
+		"grade": 2
+	},
+	104: {
+		"name": "steam",
+		"structure": 1,
+		1: ["water"],
+		2: ["breath"],
+		"grade": 2
+	},
+	105: {
+		"name": "write down",
+		"structure": 1,
+		1: ["speech"],
+		2: ["oneself"],
+		"grade": 2
+	},
 }
