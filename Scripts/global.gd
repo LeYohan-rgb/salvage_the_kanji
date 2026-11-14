@@ -481,4 +481,36 @@ var kanji : Dictionary = {
 		1: ["evening", "mouth"],
 		"grade": 1
 	},
+	76: {
+		"name": "eye",
+		"structure": 12,
+		1: ["eye"],
+		"grade": 1
+	},
+	77: {
+		"name": "stand up",
+		"structure": 12,
+		1: ["stand"],
+		"grade": 1
+	},
+	78: {
+		"name": "power",
+		"structure": 12,
+		1: ["power"],
+		"grade": 1
+	},
+	79: {
+		"name": "woods",
+		"structure": 1,
+		1: ["tree"],
+		2: ["tree"],
+		"grade": 1
+	},
+	80: {
+		"name": "six",
+		"structure": 2,
+		1: ["lid"],
+		2: ["eight"],
+		"grade": 1
+	},
 }
