@@ -388,4 +388,97 @@ var kanji : Dictionary = {
 		1: ["insect"],
 		"grade": 1
 	},
+	61: {
+		"name": "town",
+		"structure": 1,
+		1: ["field"],
+		2: ["one", "hook"],
+		"grade": 1
+	},
+	62: {
+		"name": "heaven",
+		"structure": 2,
+		1: ["one"],
+		2: ["big"],
+		"grade": 1
+	},
+	63: {
+		"name": "rice paddy",
+		"structure": 12,
+		1: ["field"],
+		"grade": 1
+	},
+	64: {
+		"name": "soil",
+		"structure": 12,
+		1: ["earth"],
+		"grade": 1
+	},
+	65: {
+		"name": "two",
+		"structure": 12,
+		1: ["two"],
+		"grade": 1
+	},
+	66: {
+		"name": "day",
+		"structure": 12,
+		1: ["sun"],
+		"grade": 1
+	},
+	67: {
+		"name": "enter",
+		"structure": 12,
+		1: ["enter"],
+		"grade": 1
+	},
+	68: {
+		"name": "year",
+		"structure": 12,
+		1: ["slash", "pestle", "line", "one"],
+		"grade": 1
+	},
+	69: {
+		"name": "white",
+		"structure": 12,
+		1: ["white"],
+		"grade": 1
+	},
+	70: {
+		"name": "eight",
+		"structure": 12,
+		1: ["eight"],
+		"grade": 1
+	},
+	71: {
+		"name": "hundred",
+		"structure": 2,
+		1: ["one"],
+		2: ["white"],
+		"grade": 1
+	},
+	72: {
+		"name": "writing",
+		"structure": 12,
+		1: ["script"],
+		"grade": 1
+	},
+	73: {
+		"name": "tree",
+		"structure": 12,
+		1: ["tree"],
+		"grade": 1
+	},
+	74: {
+		"name": "book",
+		"structure": 12,
+		1: ["tree", "one"],
+		"grade": 1
+	},
+	75: {
+		"name": "name",
+		"structure": 2,
+		1: ["evening", "mouth"],
+		"grade": 1
+	},
 }
