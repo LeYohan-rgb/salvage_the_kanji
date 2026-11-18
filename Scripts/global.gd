@@ -1056,9 +1056,8 @@ var kanji : Dictionary = {
 	},
 	160: {
 		"name": "few",
-		"structure": 2,
-		1: ["small"],
-		2: ["slash"],
+		"structure": 12,
+		1: ["small", "slash"],
 		"grade": 2
 	},
 	161: {
@@ -1399,6 +1398,105 @@ var kanji : Dictionary = {
 		"name": "horse",
 		"structure": 12,
 		1: ["horse"],
+		"grade": 2
+	},
+	211: {
+		"name": "sell",
+		"structure": 3,
+		1: ["scholar"],
+		2: ["cover"],
+		3: ["legs"],
+		"grade": 2
+	},
+	212: {
+		"name": "buy",
+		"structure": 2,
+		1: ["cover", "line", "line", "one"],
+		2: ["shellfish"],
+		"grade": 2
+	},
+	213: {
+		"name": "wheat",
+		"structure": 12,
+		1: ["wheat"],
+		"grade": 2
+	},
+	214: {
+		"name": "half",
+		"structure": 12,
+		1: ["small", "two"],
+		"grade": 2
+	},
+	215: {
+		"name": "one's turn",
+		"structure": 2,
+		1: ["distinguish"],
+		2: ["field"],
+		"grade": 2
+	},
+	216: {
+		"name": "father",
+		"structure": 12,
+		1: ["father"],
+		"grade": 2
+	},
+	217: {
+		"name": "wind",
+		"structure": 12,
+		1: ["wind"],
+		"grade": 2
+	},
+	218: {
+		"name": "part, minute of time",
+		"structure": 2,
+		1: ["eight"],
+		2: ["sword"],
+		"grade": 2
+	},
+	219: {
+		"name": "hear",
+		"structure": 7,
+		1: ["gate"],
+		2: ["ear"],
+		"grade": 2
+	},
+	220: {
+		"name": "rice",
+		"structure": 12,
+		1: ["rice"],
+		"grade": 2
+	},
+	221: {
+		"name": "walk",
+		"structure": 2,
+		1: ["stop"],
+		2: ["small", "slash"],
+		"grade": 2
+	},
+	222: {
+		"name": "mother",
+		"structure": 12,
+		1: ["mother"],
+		"grade": 2
+	},
+	223: {
+		"name": "direction",
+		"structure": 12,
+		1: ["square"],
+		"grade": 2
+	},
+	224: {
+		"name": "north",
+		"structure": 1,
+		1: ["split wood"],
+		2: ["spoon"],
+		"grade": 2
+	},
+	225: {
+		"name": "every",
+		"structure": 2,
+		1: ["slash", "one"],
+		2: ["mother"],
 		"grade": 2
 	},
 }
