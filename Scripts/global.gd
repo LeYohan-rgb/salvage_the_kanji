@@ -893,4 +893,105 @@ var kanji : Dictionary = {
 		1: ["valley"],
 		"grade": 2
 	},
+	136: {
+		"name": "country",
+		"structure": 6,
+		1: ["enclosure"],
+		2: ["king", "dot"],
+		"grade": 2
+	},
+	137: {
+		"name": "black",
+		"structure": 12,
+		1: ["black"],
+		"grade": 2
+	},
+	138: {
+		"name": "genius",
+		"structure": 12,
+		1: ["one", "hook", "slash"],
+		"grade": 2
+	},
+	139: {
+		"name": "thin",
+		"structure": 1,
+		1: ["thread"],
+		2: ["field"],
+		"grade": 2
+	},
+	140: {
+		"name": "make",
+		"structure": 1,
+		1: ["man"],
+		2: ["slash", "one", "line", "one", "one"],
+		"grade": 2
+	},
+	141: {
+		"name": "calculate",
+		"structure": 3,
+		1: ["bamboo"],
+		2: ["eye"],
+		3: ["one", "slash", "line"],
+		"grade": 2
+	},
+	142: {
+		"name": "stop",
+		"structure": 12,
+		1: ["stop"],
+		"grade": 2
+	},
+	143: {
+		"name": "market",
+		"structure": 2,
+		1: ["lid"],
+		2: ["scarf"],
+		"grade": 2
+	},
+	144: {
+		"name": "arrow",
+		"structure": 12,
+		1: ["arrow"],
+		"grade": 2
+	},
+	145: {
+		"name": "older sister",
+		"structure": 1,
+		1: ["woman"],
+		2: ["lid", "scarf"],
+		"grade": 2
+	},
+	146: {
+		"name": "think",
+		"structure": 2,
+		1: ["field"],
+		2: ["heart"],
+		"grade": 2
+	},
+	147: {
+		"name": "paper",
+		"structure": 1,
+		1: ["thread"],
+		2: ["clan"],
+		"grade": 2
+	},
+	148: {
+		"name": "Buddhist temple",
+		"structure": 2,
+		1: ["earth"],
+		2: ["thumb"],
+		"grade": 2
+	},
+	149: {
+		"name": "oneself",
+		"structure": 12,
+		1: ["self"],
+		"grade": 2
+	},
+	150: {
+		"name": "time",
+		"structure": 1,
+		1: ["sun"],
+		2: ["earth", "thumb"],
+		"grade": 2
+	},
 }
