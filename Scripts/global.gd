@@ -1499,4 +1499,104 @@ var kanji : Dictionary = {
 		2: ["mother"],
 		"grade": 2
 	},
+	226: {
+		"name": "younger sister",
+		"structure": 2,
+		1: ["woman"],
+		2: ["two", "line", "man"],
+		"grade": 2
+	},
+	227: {
+		"name": "ten thousand",
+		"structure": 2,
+		1: ["one"],
+		2: ["wrap"],
+		"grade": 2
+	},
+	228: {
+		"name": "bright",
+		"structure": 1,
+		1: ["sun"],
+		2: ["moon"],
+		"grade": 2
+	},
+	229: {
+		"name": "chirp",
+		"structure": 1,
+		1: ["mouth"],
+		2: ["bird"],
+		"grade": 2
+	},
+	230: {
+		"name": "hair",
+		"structure": 12,
+		1: ["fur"],
+		"grade": 2
+	},
+	231: {
+		"name": "gates",
+		"structure": 12,
+		1: ["gate"],
+		"grade": 2
+	},
+	232: {
+		"name": "night",
+		"structure": 2,
+		1: ["lid"],
+		2: ["man", "go", "dot"],
+		"grade": 2
+	},
+	233: {
+		"name": "field",
+		"structure": 1,
+		1: ["village"],
+		2: ["second", "dot", "second", "hook"],
+		"grade": 2
+	},
+	234: {
+		"name": "friend",
+		"structure": 4,
+		1: ["one", "slash"],
+		2: ["right hand"],
+		"grade": 2
+	},
+	235: {
+		"name": "use",
+		"structure": 12,
+		1: ["use"],
+		"grade": 2
+	},
+	236: {
+		"name": "day of the week",
+		"structure": 1,
+		1: ["sun"],
+		2: ["pig's head", "pig's head", "small bird"],
+		"grade": 2
+	},
+	237: {
+		"name": "come",
+		"structure": 12,
+		1: ["one", "rice"],
+		"grade": 2
+	},
+	238: {
+		"name": "village",
+		"structure": 12,
+		1: ["village"],
+		"grade": 2
+	},
+	239: {
+		"name": "reason",
+		"structure": 1,
+		1: ["king"],
+		2: ["village"],
+		"grade": 2
+	},
+	240: {
+		"name": "talk",
+		"structure": 1,
+		1: ["speech"],
+		2: ["tongue"],
+		"grade": 2
+	},
 }
