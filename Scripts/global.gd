@@ -601,9 +601,8 @@ var kanji : Dictionary = {
 	},
 	93: {
 		"name": "association",
-		"structure": 3,
-		1: ["man"],
-		2: ["one"],
+		"structure": 2,
+		1: ["man", "two"],
 		3: ["private"],
 		"grade": 2
 	},
@@ -663,10 +662,9 @@ var kanji : Dictionary = {
 	},
 	102: {
 		"name": "boulder",
-		"structure": 3,
+		"structure": 2,
 		1: ["mountain"],
-		2: ["one", "slash"],
-		3: ["mouth"],
+		2: ["stone"],
 		"grade": 2
 	},
 	103: {
@@ -849,7 +847,7 @@ var kanji : Dictionary = {
 	129: {
 		"name": "ray",
 		"structure": 3,
-		1: ["line", "dot", "slash"],
+		1: ["small"],
 		2: ["one"],
 		3: ["legs"],
 		"grade": 2
@@ -864,7 +862,7 @@ var kanji : Dictionary = {
 	131: {
 		"name": "go",
 		"structure": 12,
-		1: ["go"],
+		1: ["do"],
 		"grade": 2
 	},
 	132: {
@@ -881,9 +879,8 @@ var kanji : Dictionary = {
 	},
 	134: {
 		"name": "fit",
-		"structure": 3,
-		1: ["man"],
-		2: ["one"],
+		"structure": 2,
+		1: ["man", "one"],
 		3: ["mouth"],
 		"grade": 2
 	},
@@ -908,10 +905,9 @@ var kanji : Dictionary = {
 	},
 	138: {
 		"name": "now",
-		"structure": 3,
-		1: ["man"],
-		2: ["one"],
-		3: ["one", "slash"],
+		"structure": 2,
+		1: ["man", "one"],
+		3: ["second"],
 		"grade": 2
 	},
 	139: {
@@ -1198,6 +1194,211 @@ var kanji : Dictionary = {
 		"structure": 2,
 		1: ["evening"],
 		2: ["evening"],
+		"grade": 2
+	},
+	181: {
+		"name": "thick",
+		"structure": 12,
+		1: ["big", "dot"],
+		"grade": 2
+	},
+	182: {
+		"name": "body",
+		"structure": 1,
+		1: ["man"],
+		2: ["tree", "one"],
+		"grade": 2
+	},
+	183: {
+		"name": "pedestal",
+		"structure": 2,
+		1: ["private"],
+		2: ["mouth"],
+		"grade": 2
+	},
+	184: {
+		"name": "ground",
+		"structure": 1,
+		1: ["earth"],
+		2: ["second", "line", "second"],
+		"grade": 2
+	},
+	185: {
+		"name": "pond",
+		"structure": 1,
+		1: ["water"],
+		2: ["second", "line", "second"],
+		"grade": 2
+	},
+	186: {
+		"name": "know",
+		"structure": 1,
+		1: ["arrow"],
+		2: ["mouth"],
+		"grade": 2
+	},
+	187: {
+		"name": "tea",
+		"structure": 3,
+		1: ["grass"],
+		2: ["man"],
+		3: ["ten", "slash", "dot"],
+		"grade": 2
+	},
+	188: {
+		"name": "daytime",
+		"structure": 4,
+		1: ["corpse"],
+		2: ["dot", "sun", "one"],
+		"grade": 2
+	},
+	189: {
+		"name": "long",
+		"structure": 12,
+		1: ["long"],
+		"grade": 2
+	},
+	190: {
+		"name": "bird",
+		"structure": 12,
+		1: ["bird"],
+		"grade": 2
+	},
+	191: {
+		"name": "morning",
+		"structure": 1,
+		1: ["ten", "sun", "ten"],
+		2: ["moon"],
+		"grade": 2
+	},
+	192: {
+		"name": "straight",
+		"structure": 5,
+		1: ["ten", "eye"],
+		2: ["second"],
+		"grade": 2
+	},
+	193: {
+		"name": "pass through",
+		"structure": 5,
+		1: ["second", "dot", "use"],
+		2: ["walk"],
+		"grade": 2
+	},
+	194: {
+		"name": "younger brother",
+		"structure": 2,
+		1: ["dot", "slash"],
+		2: ["bow", "line", "slash"],
+		"grade": 2
+	},
+	195: {
+		"name": "shop",
+		"structure": 4,
+		1: ["dotted cliff"],
+		2: ["divination", "mouth"],
+		"grade": 2
+	},
+	196: {
+		"name": "point",
+		"structure": 3,
+		1: ["divination"],
+		2: ["mouth"],
+		3: ["fire"],
+		"grade": 2
+	},
+	197: {
+		"name": "electricity",
+		"structure": 2,
+		1: ["rain"],
+		2: ["field", "second"],
+		"grade": 2
+	},
+	198: {
+		"name": "sword",
+		"structure": 12,
+		1: ["sword"],
+		"grade": 2
+	},
+	199: {
+		"name": "winter",
+		"structure": 2,
+		1: ["go"],
+		2: ["dot", "dot"],
+		"grade": 2
+	},
+	200: {
+		"name": "hit",
+		"structure": 2,
+		1: ["small"],
+		2: ["pig's head"],
+		"grade": 2
+	},
+	201: {
+		"name": "east",
+		"structure": 12,
+		1: ["ten", "field", "man"],
+		"grade": 2
+	},
+	202: {
+		"name": "answer",
+		"structure": 3,
+		1: ["bamboo"],
+		2: ["man", "one"],
+		3: ["mouth"],
+		"grade": 2
+	},
+	203: {
+		"name": "head",
+		"structure": 1,
+		1: ["bean"],
+		2: ["leaf"],
+		"grade": 2
+	},
+	204: {
+		"name": "same",
+		"structure": 7,
+		1: ["wide"],
+		2: ["one", "mouth"],
+		"grade": 2
+	},
+	205: {
+		"name": "road",
+		"structure": 5,
+		1: ["head"],
+		2: ["walk"],
+		"grade": 2
+	},
+	206: {
+		"name": "read",
+		"structure": 1,
+		1: ["speech"],
+		2: ["scholar", "cover", "legs"],
+		"grade": 2
+	},
+	207: {
+		"name": "inside",
+		"structure": 12,
+		1: ["wide", "man"],
+		"grade": 2
+	},
+	208: {
+		"name": "south",
+		"structure": 7,
+		1: ["ten", "wide"],
+		2: ["dot", "slash", "pestle"],
+		"grade": 2
+	},
+	209: {
+		"name": "meat",
+		"structure": 12,
+		1: ["meat"],
+		"grade": 2
+	},
+	210: {
+		"name": "horse",
+		"structure": 12,
+		1: ["horse"],
 		"grade": 2
 	},
 }
