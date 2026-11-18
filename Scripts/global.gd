@@ -1097,4 +1097,107 @@ var kanji : Dictionary = {
 		2: ["axe"],
 		"grade": 2
 	},
+	166: {
+		"name": "parent",
+		"structure": 1,
+		1: ["stand", "tree"],
+		2: ["see"],
+		"grade": 2
+	},
+	167: {
+		"name": "diagram",
+		"structure": 6,
+		1: ["enclosure"],
+		2: ["dipper"],
+		"grade": 2
+	},
+	168: {
+		"name": "number",
+		"structure": 1,
+		1: ["rice", "woman"],
+		2: ["rap"],
+		"grade": 2
+	},
+	169: {
+		"name": "west",
+		"structure": 12,
+		1: ["west"],
+		"grade": 2
+	},
+	170: {
+		"name": "voice",
+		"structure": 2,
+		1: ["scholar"],
+		2: ["coprse", "lid"],
+		"grade": 2
+	},
+	171: {
+		"name": "star",
+		"structure": 2,
+		1: ["sun"],
+		2: ["life"],
+		"grade": 2
+	},
+	172: {
+		"name": "clear up",
+		"structure": 1,
+		1: ["sun"],
+		2: ["blue"],
+		"grade": 2
+	},
+	173: {
+		"name": "cut",
+		"structure": 1,
+		1: ["one", "second"],
+		2: ["sword"],
+		"grade": 2
+	},
+	174: {
+		"name": "snow",
+		"structure": 2,
+		1: ["rain"],
+		2: ["pig's head"],
+		"grade": 2
+	},
+	175: {
+		"name": "boat",
+		"structure": 1,
+		1: ["boat"],
+		2: ["eight", "mouth"],
+		"grade": 2
+	},
+	176: {
+		"name": "line",
+		"structure": 1,
+		1: ["thread"],
+		2: ["white", "water"],
+		"grade": 2
+	},
+	177: {
+		"name": "in front",
+		"structure": 2,
+		1: ["dot", "slash", "one"],
+		2: ["moon", "sword"],
+		"grade": 2
+	},
+	178: {
+		"name": "association",
+		"structure": 1,
+		1: ["thread"],
+		2: ["eye"],
+		"grade": 2
+	},
+	179: {
+		"name": "run",
+		"structure": 12,
+		1: ["run"],
+		"grade": 2
+	},
+	180: {
+		"name": "many",
+		"structure": 2,
+		1: ["evening"],
+		2: ["evening"],
+		"grade": 2
+	},
 }
