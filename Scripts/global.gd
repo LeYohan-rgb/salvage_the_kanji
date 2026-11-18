@@ -907,26 +907,34 @@ var kanji : Dictionary = {
 		"grade": 2
 	},
 	138: {
+		"name": "now",
+		"structure": 3,
+		1: ["man"],
+		2: ["one"],
+		3: ["one", "slash"],
+		"grade": 2
+	},
+	139: {
 		"name": "genius",
 		"structure": 12,
 		1: ["one", "hook", "slash"],
 		"grade": 2
 	},
-	139: {
+	140: {
 		"name": "thin",
 		"structure": 1,
 		1: ["thread"],
 		2: ["field"],
 		"grade": 2
 	},
-	140: {
+	141: {
 		"name": "make",
 		"structure": 1,
 		1: ["man"],
 		2: ["slash", "one", "line", "one", "one"],
 		"grade": 2
 	},
-	141: {
+	142: {
 		"name": "calculate",
 		"structure": 3,
 		1: ["bamboo"],
@@ -934,64 +942,159 @@ var kanji : Dictionary = {
 		3: ["one", "slash", "line"],
 		"grade": 2
 	},
-	142: {
+	143: {
 		"name": "stop",
 		"structure": 12,
 		1: ["stop"],
 		"grade": 2
 	},
-	143: {
+	144: {
 		"name": "market",
 		"structure": 2,
 		1: ["lid"],
 		2: ["scarf"],
 		"grade": 2
 	},
-	144: {
+	145: {
 		"name": "arrow",
 		"structure": 12,
 		1: ["arrow"],
 		"grade": 2
 	},
-	145: {
+	146: {
 		"name": "older sister",
 		"structure": 1,
 		1: ["woman"],
 		2: ["lid", "scarf"],
 		"grade": 2
 	},
-	146: {
+	147: {
 		"name": "think",
 		"structure": 2,
 		1: ["field"],
 		2: ["heart"],
 		"grade": 2
 	},
-	147: {
+	148: {
 		"name": "paper",
 		"structure": 1,
 		1: ["thread"],
 		2: ["clan"],
 		"grade": 2
 	},
-	148: {
+	149: {
 		"name": "Buddhist temple",
 		"structure": 2,
 		1: ["earth"],
 		2: ["thumb"],
 		"grade": 2
 	},
-	149: {
+	150: {
 		"name": "oneself",
 		"structure": 12,
 		1: ["self"],
 		"grade": 2
 	},
-	150: {
+	151: {
 		"name": "time",
 		"structure": 1,
 		1: ["sun"],
 		2: ["earth", "thumb"],
+		"grade": 2
+	},
+	152: {
+		"name": "room",
+		"structure": 3,
+		1: ["roof"],
+		2: ["one", "private"],
+		3: ["earth"],
+		"grade": 2
+	},
+	153: {
+		"name": "company",
+		"structure": 1,
+		1: ["sign"],
+		2: ["earth"],
+		"grade": 2
+	},
+	154: {
+		"name": "weak",
+		"structure": 1,
+		1: ["bow", "ice"],
+		2: ["bow", "ice"],
+		"grade": 2
+	},
+	155: {
+		"name": "neck",
+		"structure": 12,
+		1: ["head"],
+		"grade": 2
+	},
+	156: {
+		"name": "autumn",
+		"structure": 1,
+		1: ["grain"],
+		2: ["fire"],
+		"grade": 2
+	},
+	157: {
+		"name": "week",
+		"structure": 5,
+		1: ["wide", "earth", "mouth"],
+		2: ["walk"],
+		"grade": 2
+	},
+	158: {
+		"name": "springtime",
+		"structure": 2,
+		1: ["two", "big"],
+		2: ["sun"],
+		"grade": 2
+	},
+	159: {
+		"name": "write",
+		"structure": 2,
+		1: ["brush"],
+		2: ["sun"],
+		"grade": 2
+	},
+	160: {
+		"name": "few",
+		"structure": 2,
+		1: ["small"],
+		2: ["slash"],
+		"grade": 2
+	},
+	161: {
+		"name": "place",
+		"structure": 1,
+		1: ["earth"],
+		2: ["sun", "one", "wrap", "slash", "slash"],
+		"grade": 2
+	},
+	162: {
+		"name": "color",
+		"structure": 12,
+		1: ["color"],
+		"grade": 2
+	},
+	163: {
+		"name": "eat, meal",
+		"structure": 12,
+		1: ["eat"],
+		"grade": 2
+	},
+	164: {
+		"name": "heart",
+		"structure": 12,
+		1: ["heart"],
+		"grade": 2
+	},
+	165: {
+		"name": "new",
+		"structure": 1,
+		1: ["stand", "tree"],
+		2: ["axe"],
 		"grade": 2
 	},
 }
