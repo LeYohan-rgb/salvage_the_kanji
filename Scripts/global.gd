@@ -704,12 +704,18 @@ var kanji : Dictionary = {
 		"grade": 2
 	},
 	108: {
+		"name": "cow",
+		"structure": 12,
+		1: ["cow"],
+		"grade": 2
+	},
+	109: {
 		"name": "fish",
 		"structure": 12,
 		1: ["fish"],
 		"grade": 2
 	},
-	109: {
+	110: {
 		"name": "capital",
 		"structure": 3,
 		1: ["lid"],
@@ -717,25 +723,18 @@ var kanji : Dictionary = {
 		3: ["small"],
 		"grade": 2
 	},
-	110: {
+	111: {
 		"name": "strong",
 		"structure": 1,
 		1: ["bow"],
 		2: ["private", "bug"],
 		"grade": 2
 	},
-	111: {
+	112: {
 		"name": "teach",
 		"structure": 1,
 		1: ["old", "child"],
 		2: ["rap"],
-		"grade": 2
-	},
-	112: {
-		"name": "near",
-		"structure": 5,
-		1: ["axe"],
-		2: ["walk"],
 		"grade": 2
 	},
 	113: {
@@ -790,6 +789,108 @@ var kanji : Dictionary = {
 		"name": "door",
 		"structure": 12,
 		1: ["door"],
+		"grade": 2
+	},
+	121: {
+		"name": "old",
+		"structure": 2,
+		1: ["ten"],
+		2: ["mouth"],
+		"grade": 2
+	},
+	122: {
+		"name": "noon",
+		"structure": 2,
+		1: ["slash", "one"],
+		2: ["ten"],
+		"grade": 2
+	},
+	123: {
+		"name": "behind",
+		"structure": 1,
+		1: ["step"],
+		2: ["short", "go"],
+		"grade": 2
+	},
+	124: {
+		"name": "language",
+		"structure": 1,
+		1: ["speech"],
+		2: ["two", "slash", "dot", "mouth"],
+		"grade": 2
+	},
+	125: {
+		"name": "craft",
+		"structure": 12,
+		1: ["work"],
+		"grade": 2
+	},
+	126: {
+		"name": "public",
+		"structure": 2,
+		1: ["eight"],
+		2: ["private"],
+		"grade": 2
+	},
+	127: {
+		"name": "wide",
+		"structure": 4,
+		1: ["dotted cliff"],
+		2: ["private"],
+		"grade": 2
+	},
+	128: {
+		"name": "mix",
+		"structure": 2,
+		1: ["lid"],
+		2: ["father"],
+		"grade": 2
+	},
+	129: {
+		"name": "ray",
+		"structure": 3,
+		1: ["line", "dot", "slash"],
+		2: ["one"],
+		3: ["legs"],
+		"grade": 2
+	},
+	130: {
+		"name": "think",
+		"structure": 2,
+		1: ["old"],
+		2: ["one", "wrap"],
+		"grade": 2
+	},
+	131: {
+		"name": "go",
+		"structure": 12,
+		1: ["go"],
+		"grade": 2
+	},
+	132: {
+		"name": "tall, expensive",
+		"structure": 12,
+		1: ["tall"],
+		"grade": 2
+	},
+	133: {
+		"name": "yellow",
+		"structure": 12,
+		1: ["yellow"],
+		"grade": 2
+	},
+	134: {
+		"name": "fit",
+		"structure": 3,
+		1: ["man"],
+		2: ["one"],
+		3: ["mouth"],
+		"grade": 2
+	},
+	135: {
+		"name": "valley",
+		"structure": 12,
+		1: ["valley"],
 		"grade": 2
 	},
 }
