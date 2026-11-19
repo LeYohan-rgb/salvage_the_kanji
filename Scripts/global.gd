@@ -1601,4 +1601,110 @@ var kanji : Dictionary = {
 		2: ["tongue"],
 		"grade": 2
 	},
+	241: {
+		"name": "bad",
+		"structure": 2,
+		1: ["one", "mouth", "line", "line", "one"],
+		2: ["heart"],
+		"grade": 3
+	},
+	242: {
+		"name": "cheap",
+		"structure": 2,
+		1: ["roof"],
+		2: ["woman"],
+		"grade": 3
+	},
+	243: {
+		"name": "dark",
+		"structure": 1,
+		1: ["sun"],
+		2: ["stand", "sun"],
+		"grade": 3
+	},
+	244: {
+		"name": "doctor",
+		"structure": 9,
+		1: ["box"],
+		2: ["arrow"],
+		"grade": 3
+	},
+	245: {
+		"name": "committee",
+		"structure": 2,
+		1: ["grain"],
+		2: ["woman"],
+		"grade": 3
+	},
+	246: {
+		"name": "idea",
+		"structure": 2,
+		1: ["sound"],
+		2: ["heart"],
+		"grade": 3
+	},
+	247: {
+		"name": "nurture",
+		"structure": 3,
+		1: ["lid"],
+		2: ["private"],
+		3: ["moon"],
+		"grade": 3
+	},
+	248: {
+		"name": "member",
+		"structure": 3,
+		1: ["mouth"],
+		2: ["eye"],
+		3: ["eight"],
+		"grade": 3
+	},
+	249: {
+		"name": "institution",
+		"structure": 1,
+		1: ["mound"],
+		2: ["roof", "two", "legs"],
+		"grade": 3
+	},
+	250: {
+		"name": "drink",
+		"structure": 1,
+		1: ["eat"],
+		2: ["lack"],
+		"grade": 3
+	},
+	251: {
+		"name": "carry",
+		"structure": 5,
+		1: ["car"],
+		2: ["walk"],
+		"grade": 3
+	},
+	252: {
+		"name": "swim",
+		"structure": 1,
+		1: ["water"],
+		2: ["dot", "water"],
+		"grade": 3
+	},
+	253: {
+		"name": "station",
+		"structure": 1,
+		1: ["horse"],
+		2: ["corpse", "dot"],
+		"grade": 3
+	},
+	254: {
+		"name": "center",
+		"structure": 12,
+		1: ["cover", "big"],
+		"grade": 3
+	},
+	255: {
+		"name": "side",
+		"structure": 1,
+		1: ["tree"],
+		2: ["yellow"],
+		"grade": 3
+	},
 }

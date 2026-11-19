@@ -635,7 +635,7 @@ size_flags_vertical = 3
 size_flags_stretch_ratio = 2.0
 theme_override_constants/separation = 20
 
-[node name="Button" type="Button" parent="main_container/center_container/button_container" unique_id=801090822]
+[node name="real_btn" type="Button" parent="main_container/center_container/button_container" unique_id=801090822]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 size_flags_horizontal = 3
@@ -644,7 +644,7 @@ offset_transform_scale = Vector2(1, 0.7)
 theme_override_font_sizes/font_size = 32
 text = "REAL"
 
-[node name="Button2" type="Button" parent="main_container/center_container/button_container" unique_id=929608096]
+[node name="salvage_btn" type="Button" parent="main_container/center_container/button_container" unique_id=929608096]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 size_flags_horizontal = 3

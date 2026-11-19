@@ -193,4 +193,8 @@ func interlude_scene(outcome):
 		game_paused = false
 		reproduce_kanji(game_ten_kanji_dictionary[current_kanji])
 	else:
-		pass
+		game_running = false
+		go_to_end_screen()
+
+func go_to_end_screen():
+	pass
