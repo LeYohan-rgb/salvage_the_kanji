@@ -5,6 +5,9 @@ extends Control
 @onready var message_lbl = $main_container/center_container/message_container/message_label
 @onready var kanji_timer = $timers/kanji_timer
 @onready var kanji_time_bar = $main_container/center_container/time_container/time_bar
+@onready var radical_slot_1 = $main_container/center_container/kanji_container/radical_list_container/radical_1
+@onready var radical_slot_2 = $main_container/center_container/kanji_container/radical_list_container/radical_2
+@onready var radical_slot_3 = $main_container/center_container/kanji_container/radical_list_container/radical_3
 
 #GAME VARIABLES
 var game_ten_kanji_dictionary = {}
@@ -61,6 +64,28 @@ func reproduce_kanji(kanji):
 	kanji_timer.start(time_per_kanji)
 	
 	if kanji["true_or_false"] == true:
-		pass
+		configure_radicals(kanji["kanji_index"])
 	else:
 		pass
+
+func configure_radicals(index):
+	var kanji_structure = Global.kanji[index]["structure"]
+	var radical_slots = convert_structure_to_num_of_radical_slots(kanji_structure)
+	
+	if radical_slots == 1:
+		var no_radicals = Global.kanji[index][1].size()
+		radical_slot_2.hide()
+		radical_slot_3.hide()
+		
+		radical_slot_1.get_node("radical_container").columns = no_radicals_to_columns(no_radicals)
+		
+	
+func convert_structure_to_num_of_radical_slots(structure):
+	if structure == 3 or structure == 11:
+		return 3
+	if structure == 12:
+		return 1
+	return 2
+
+func no_radicals_to_columns(radical_num):
+	pass
