@@ -601,6 +601,17 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+color = Color(0.15127608, 0.15127608, 0.15127608, 1)
+
+[node name="kanji_box_btn" type="Button" parent="main_container/center_container/kanji_container/kanji_box_container" unique_id=472142869]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 48
+disabled = true
 
 [node name="message_container" type="Control" parent="main_container/center_container" unique_id=195211423]
 layout_mode = 2
@@ -645,3 +656,5 @@ text = "SALVAGE"
 [node name="Control3" type="Control" parent="main_container" unique_id=1103943657]
 layout_mode = 2
 size_flags_horizontal = 3
+
+[connection signal="timeout" from="timers/kanji_timer" to="." method="_on_kanji_timer_timeout"]

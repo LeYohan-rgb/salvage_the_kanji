@@ -9,11 +9,14 @@ extends Control
 @onready var radical_slot_1 = $main_container/center_container/kanji_container/radical_list_container/radical_1
 @onready var radical_slot_2 = $main_container/center_container/kanji_container/radical_list_container/radical_2
 @onready var radical_slot_3 = $main_container/center_container/kanji_container/radical_list_container/radical_3
-
+@onready var kanji_box = $main_container/center_container/kanji_container/kanji_box_container/kanji_box_btn
 #GAME VARIABLES
 var game_ten_kanji_dictionary = {}
 var time_per_kanji : float = 10.0
+var current_kanji : int = 0 #0-9
 var game_running = false
+var game_paused = true
+var plr_score = {}
 
 
 # Called when the node enters the scene tree for the first time.
@@ -21,6 +24,16 @@ func _ready() -> void:
 	kanji_time_bar.max_value = time_per_kanji
 	kanji_time_bar.value = time_per_kanji
 	begin_starting_countdown()
+	
+	#DEFINE PLAYER SCORE
+	for i in range(10):
+		plr_score[i] = {
+			"time_taken" : 0.0,
+			"true_or_false" : false, 
+			"real_or_salvage": 0, #0 nothing, 1 real, 2 salvage
+			"kanji_score": 0.0,
+			"original_kanji_score": 0.0,
+		}
 	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
@@ -53,21 +66,30 @@ func kanji_config():
 		game_ten_kanji_dictionary[i] = {
 			"kanji_index" = kanji_randomized_index[i],
 			"true_or_false" = true,
+			"structure" = Global.kanji[kanji_randomized_index[i]]["structure"],
+			"difficulty" = Global.kanji[kanji_randomized_index[i]]["grade"]
 		}
 		
 	print(game_ten_kanji_dictionary)
 	
 	game_running = true
+	game_paused = false
+	current_kanji = 0
 	#START WITH THE FIRST KANJI
 	reproduce_kanji(game_ten_kanji_dictionary[0])
 	
 func reproduce_kanji(kanji):
 	kanji_timer.start(time_per_kanji)
 	
+	configure_kanji_box(kanji["structure"])
+	
 	if kanji["true_or_false"] == true:
 		configure_radicals(kanji["kanji_index"])
 	else:
 		pass
+		
+func configure_kanji_box(kanji_struc):
+	kanji_box.text = str(kanji_struc)
 
 func configure_radicals(index):
 	var kanji_structure = Global.kanji[index]["structure"]
@@ -144,3 +166,31 @@ func no_radicals_to_columns(radical_num):
 		return 3
 	else:
 		return 4
+
+
+func _on_kanji_timer_timeout() -> void:
+	ran_out_of_time()
+	
+func ran_out_of_time():
+	plr_score[current_kanji]["time_taken"] = time_per_kanji
+	plr_score[current_kanji]["true_or_false"] = game_ten_kanji_dictionary[current_kanji]["true_or_false"]
+	plr_score[current_kanji]["real_or_salvage"] = 0
+	plr_score[current_kanji]["kanji_score"] = 0
+	plr_score[current_kanji]["original_kanji_score"] = game_ten_kanji_dictionary[current_kanji]["difficulty"]
+	
+	interlude_scene(0)
+
+func interlude_scene(outcome):
+	#ran out of time
+	if outcome == 0:
+		game_paused = true
+		message_lbl.text = "Ran out of time!"
+		await get_tree().create_timer(1.0).timeout
+		
+	if current_kanji != 9:
+		current_kanji += 1
+		message_lbl.text = ""
+		game_paused = false
+		reproduce_kanji(game_ten_kanji_dictionary[current_kanji])
+	else:
+		pass
