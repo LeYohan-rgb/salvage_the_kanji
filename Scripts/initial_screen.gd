@@ -1,6 +1,6 @@
 extends Control
 
-
+@onready var settings_menu = $settings_menu
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass # Replace with function body.
@@ -16,9 +16,13 @@ func _on_play_btn_pressed() -> void:
 
 
 func _on_settings_btn_pressed() -> void:
-	pass # Replace with function body.
+	settings_menu.show()
 
 
 func _on_option_button_item_selected(index: int) -> void:
 	Global.game_mode = index
 	print(index)
+
+
+func _on_settings_close_button_pressed() -> void:
+	settings_menu.hide()

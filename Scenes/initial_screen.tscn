@@ -133,7 +133,8 @@ size_flags_vertical = 3
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="Control" type="Control" parent="." unique_id=909876103]
+[node name="settings_menu" type="Control" parent="." unique_id=909876103]
+visible = false
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -147,7 +148,7 @@ offset_bottom = 234.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="ColorRect" type="ColorRect" parent="Control" unique_id=618512681]
+[node name="ColorRect" type="ColorRect" parent="settings_menu" unique_id=618512681]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -156,7 +157,7 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.24115604, 0.24115604, 0.24115604, 1)
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Control" unique_id=1416525328]
+[node name="VBoxContainer" type="VBoxContainer" parent="settings_menu" unique_id=1416525328]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -164,11 +165,11 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Control" type="Control" parent="Control/VBoxContainer" unique_id=1716874955]
+[node name="Control" type="Control" parent="settings_menu/VBoxContainer" unique_id=1716874955]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="Label" type="Label" parent="Control/VBoxContainer/Control" unique_id=387238681]
+[node name="Label" type="Label" parent="settings_menu/VBoxContainer/Control" unique_id=387238681]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -184,16 +185,29 @@ grow_vertical = 2
 theme_override_font_sizes/font_size = 40
 text = "SETTINGS"
 
-[node name="settings" type="VBoxContainer" parent="Control/VBoxContainer" unique_id=1853491133]
+[node name="settings_close_button" type="Button" parent="settings_menu/VBoxContainer/Control" unique_id=1781439463]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -57.75
+offset_bottom = 51.0
+grow_horizontal = 0
+offset_transform_enabled = true
+offset_transform_scale = Vector2(0.7, 0.7)
+theme_override_font_sizes/font_size = 32
+text = "X"
+
+[node name="settings" type="VBoxContainer" parent="settings_menu/VBoxContainer" unique_id=1853491133]
 layout_mode = 2
 size_flags_vertical = 3
 size_flags_stretch_ratio = 4.0
 
-[node name="difficulty_container" type="HBoxContainer" parent="Control/VBoxContainer/settings" unique_id=643305515]
+[node name="difficulty_container" type="HBoxContainer" parent="settings_menu/VBoxContainer/settings" unique_id=643305515]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="Label" type="Label" parent="Control/VBoxContainer/settings/difficulty_container" unique_id=955672434]
+[node name="Label" type="Label" parent="settings_menu/VBoxContainer/settings/difficulty_container" unique_id=955672434]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_font_sizes/font_size = 32
@@ -201,7 +215,7 @@ text = "DIFFICULTY"
 horizontal_alignment = 2
 vertical_alignment = 1
 
-[node name="OptionButton" type="OptionButton" parent="Control/VBoxContainer/settings/difficulty_container" unique_id=692101824]
+[node name="OptionButton" type="OptionButton" parent="settings_menu/VBoxContainer/settings/difficulty_container" unique_id=692101824]
 layout_mode = 2
 size_flags_horizontal = 3
 offset_transform_enabled = true
@@ -218,14 +232,15 @@ popup/item_1/id = 1
 popup/item_2/text = "HARD"
 popup/item_2/id = 2
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="Control/VBoxContainer/settings" unique_id=610496497]
+[node name="HBoxContainer2" type="HBoxContainer" parent="settings_menu/VBoxContainer/settings" unique_id=610496497]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="HBoxContainer3" type="HBoxContainer" parent="Control/VBoxContainer/settings" unique_id=389364816]
+[node name="HBoxContainer3" type="HBoxContainer" parent="settings_menu/VBoxContainer/settings" unique_id=389364816]
 layout_mode = 2
 size_flags_vertical = 3
 
 [connection signal="pressed" from="main_container/VBoxContainer/button_container/VBoxContainer/btn_container/play_btn" to="." method="_on_play_btn_pressed"]
 [connection signal="pressed" from="main_container/VBoxContainer/button_container/VBoxContainer/btn_container/settings_btn" to="." method="_on_settings_btn_pressed"]
-[connection signal="item_selected" from="Control/VBoxContainer/settings/difficulty_container/OptionButton" to="." method="_on_option_button_item_selected"]
+[connection signal="pressed" from="settings_menu/VBoxContainer/Control/settings_close_button" to="." method="_on_settings_close_button_pressed"]
+[connection signal="item_selected" from="settings_menu/VBoxContainer/settings/difficulty_container/OptionButton" to="." method="_on_option_button_item_selected"]

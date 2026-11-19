@@ -13,6 +13,9 @@ script = ExtResource("1_nmltm")
 
 [node name="timers" type="Node2D" parent="." unique_id=311871870]
 
+[node name="kanji_timer" type="Timer" parent="timers" unique_id=1940681114]
+one_shot = true
+
 [node name="starting_countdown" type="Label" parent="." unique_id=1104842281]
 layout_mode = 0
 offset_right = 40.0
@@ -114,6 +117,7 @@ grow_horizontal = 2
 grow_vertical = 2
 offset_transform_enabled = true
 offset_transform_scale = Vector2(0.9, 0.3)
+value = 100.0
 show_percentage = false
 
 [node name="kanji_container" type="HBoxContainer" parent="main_container/center_container" unique_id=1488369412]
