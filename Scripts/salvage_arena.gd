@@ -21,3 +21,9 @@ func begin_starting_countdown():
 	message_lbl.text = "START!"
 	await get_tree().create_timer(1.0).timeout
 	message_lbl.text = "..."
+	
+	#This is to set up all the logistics behind the kanji and all
+	kanji_config()
+	
+func kanji_config():
+	pass

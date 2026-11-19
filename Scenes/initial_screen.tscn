@@ -133,4 +133,99 @@ size_flags_vertical = 3
 layout_mode = 2
 size_flags_horizontal = 3
 
+[node name="Control" type="Control" parent="." unique_id=909876103]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -355.75
+offset_top = -234.0
+offset_right = 355.75
+offset_bottom = 234.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="Control" unique_id=618512681]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.24115604, 0.24115604, 0.24115604, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control" unique_id=1416525328]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Control" type="Control" parent="Control/VBoxContainer" unique_id=1716874955]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="Control/VBoxContainer/Control" unique_id=387238681]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -63.0
+offset_top = -11.5
+offset_right = 63.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 40
+text = "SETTINGS"
+
+[node name="settings" type="VBoxContainer" parent="Control/VBoxContainer" unique_id=1853491133]
+layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 4.0
+
+[node name="difficulty_container" type="HBoxContainer" parent="Control/VBoxContainer/settings" unique_id=643305515]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="Control/VBoxContainer/settings/difficulty_container" unique_id=955672434]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 32
+text = "DIFFICULTY"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="OptionButton" type="OptionButton" parent="Control/VBoxContainer/settings/difficulty_container" unique_id=692101824]
+layout_mode = 2
+size_flags_horizontal = 3
+offset_transform_enabled = true
+offset_transform_scale = Vector2(0.5, 0.5)
+offset_transform_pivot_ratio = Vector2(0.2, 0.5)
+theme_override_font_sizes/font_size = 32
+alignment = 1
+selected = 0
+item_count = 3
+popup/item_0/text = "NORMAL"
+popup/item_0/id = 0
+popup/item_1/text = "EASY"
+popup/item_1/id = 1
+popup/item_2/text = "HARD"
+popup/item_2/id = 2
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="Control/VBoxContainer/settings" unique_id=610496497]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="Control/VBoxContainer/settings" unique_id=389364816]
+layout_mode = 2
+size_flags_vertical = 3
+
 [connection signal="pressed" from="main_container/VBoxContainer/button_container/VBoxContainer/btn_container/play_btn" to="." method="_on_play_btn_pressed"]
+[connection signal="pressed" from="main_container/VBoxContainer/button_container/VBoxContainer/btn_container/settings_btn" to="." method="_on_settings_btn_pressed"]
+[connection signal="item_selected" from="Control/VBoxContainer/settings/difficulty_container/OptionButton" to="." method="_on_option_button_item_selected"]

@@ -1,5 +1,7 @@
 extends Node
 
+#0 normal, 1 easy, 2 hard
+var game_mode : int = 0
 
 var kanji : Dictionary = {
 	1: {
