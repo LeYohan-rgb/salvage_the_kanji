@@ -1,7 +1,6 @@
 [gd_scene format=3 uid="uid://diitw4yw1ls3i"]
 
 [ext_resource type="Script" uid="uid://cxckel8ei86rj" path="res://Scripts/salvage_arena.gd" id="1_nmltm"]
-[ext_resource type="Texture2D" uid="uid://c3b5rxa3tiihi" path="res://icon.svg" id="2_v0ie1"]
 
 [node name="playing_arena" type="Control" unique_id=1805332936]
 layout_mode = 3
@@ -154,12 +153,14 @@ vertical_alignment = 1
 [node name="radical_container" type="GridContainer" parent="main_container/center_container/kanji_container/radical_list_container/radical_1" unique_id=1538803821]
 layout_mode = 2
 size_flags_horizontal = 3
+columns = 4
 
 [node name="Panel" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_1/radical_container" unique_id=1244563564]
+visible = false
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-icon = ExtResource("2_v0ie1")
+text_overrun_behavior = 1
 icon_alignment = 1
 expand_icon = true
 
@@ -168,7 +169,6 @@ visible = false
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-icon = ExtResource("2_v0ie1")
 icon_alignment = 1
 expand_icon = true
 
@@ -177,7 +177,6 @@ visible = false
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-icon = ExtResource("2_v0ie1")
 icon_alignment = 1
 expand_icon = true
 
@@ -186,7 +185,6 @@ visible = false
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-icon = ExtResource("2_v0ie1")
 icon_alignment = 1
 expand_icon = true
 
@@ -195,7 +193,6 @@ visible = false
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-icon = ExtResource("2_v0ie1")
 icon_alignment = 1
 expand_icon = true
 
@@ -204,7 +201,6 @@ visible = false
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-icon = ExtResource("2_v0ie1")
 icon_alignment = 1
 expand_icon = true
 
@@ -213,7 +209,6 @@ visible = false
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-icon = ExtResource("2_v0ie1")
 icon_alignment = 1
 expand_icon = true
 
@@ -222,7 +217,70 @@ visible = false
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-icon = ExtResource("2_v0ie1")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel9" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_1/radical_container" unique_id=1484378296]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel10" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_1/radical_container" unique_id=545833998]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel11" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_1/radical_container" unique_id=1443293920]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel12" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_1/radical_container" unique_id=237734129]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel13" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_1/radical_container" unique_id=2006665741]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel14" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_1/radical_container" unique_id=2032459115]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel15" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_1/radical_container" unique_id=1592820898]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel16" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_1/radical_container" unique_id=424035486]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
 icon_alignment = 1
 expand_icon = true
 
@@ -251,19 +309,135 @@ vertical_alignment = 1
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="Panel" type="Panel" parent="main_container/center_container/kanji_container/radical_list_container/radical_2/radical_container" unique_id=1223300860]
-layout_mode = 2
-
-[node name="Panel2" type="Panel" parent="main_container/center_container/kanji_container/radical_list_container/radical_2/radical_container" unique_id=1286736289]
+[node name="Panel" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_2/radical_container" unique_id=2097267444]
+visible = false
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
 
-[node name="Panel3" type="Panel" parent="main_container/center_container/kanji_container/radical_list_container/radical_2/radical_container" unique_id=822391234]
+[node name="Panel2" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_2/radical_container" unique_id=1951267175]
+visible = false
 layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel3" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_2/radical_container" unique_id=1975038240]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel4" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_2/radical_container" unique_id=1578031912]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel5" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_2/radical_container" unique_id=91868318]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel6" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_2/radical_container" unique_id=1435636102]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel7" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_2/radical_container" unique_id=1102971884]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel8" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_2/radical_container" unique_id=406424109]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel9" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_2/radical_container" unique_id=100084921]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel10" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_2/radical_container" unique_id=813013762]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel11" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_2/radical_container" unique_id=1445834204]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel12" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_2/radical_container" unique_id=1706379627]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel13" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_2/radical_container" unique_id=541752750]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel14" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_2/radical_container" unique_id=2067301583]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel15" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_2/radical_container" unique_id=1767349251]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel16" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_2/radical_container" unique_id=1084371189]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
 
 [node name="radical_3" type="HBoxContainer" parent="main_container/center_container/kanji_container/radical_list_container" unique_id=125215727]
-visible = false
 layout_mode = 2
 size_flags_vertical = 3
 
@@ -288,16 +462,133 @@ vertical_alignment = 1
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="Panel" type="Panel" parent="main_container/center_container/kanji_container/radical_list_container/radical_3/radical_container" unique_id=188120786]
-layout_mode = 2
-
-[node name="Panel2" type="Panel" parent="main_container/center_container/kanji_container/radical_list_container/radical_3/radical_container" unique_id=1432515027]
+[node name="Panel" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_3/radical_container" unique_id=1418136871]
+visible = false
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
 
-[node name="Panel3" type="Panel" parent="main_container/center_container/kanji_container/radical_list_container/radical_3/radical_container" unique_id=1774458567]
+[node name="Panel2" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_3/radical_container" unique_id=1543506149]
+visible = false
 layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel3" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_3/radical_container" unique_id=371584215]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel4" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_3/radical_container" unique_id=461458117]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel5" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_3/radical_container" unique_id=1557953491]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel6" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_3/radical_container" unique_id=1648369173]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel7" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_3/radical_container" unique_id=150902857]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel8" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_3/radical_container" unique_id=711845862]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel9" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_3/radical_container" unique_id=568920432]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel10" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_3/radical_container" unique_id=1176650480]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel11" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_3/radical_container" unique_id=50473237]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel12" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_3/radical_container" unique_id=15743454]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel13" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_3/radical_container" unique_id=879825623]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel14" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_3/radical_container" unique_id=1414057507]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel15" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_3/radical_container" unique_id=945089584]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel16" type="Button" parent="main_container/center_container/kanji_container/radical_list_container/radical_3/radical_container" unique_id=285466490]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon_alignment = 1
+expand_icon = true
 
 [node name="kanji_box_container" type="Control" parent="main_container/center_container/kanji_container" unique_id=1370593828]
 layout_mode = 2

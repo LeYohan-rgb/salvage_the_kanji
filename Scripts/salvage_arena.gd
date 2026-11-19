@@ -5,6 +5,7 @@ extends Control
 @onready var message_lbl = $main_container/center_container/message_container/message_label
 @onready var kanji_timer = $timers/kanji_timer
 @onready var kanji_time_bar = $main_container/center_container/time_container/time_bar
+#WE ASSUME 16 IS MAX NUM OF RADICALS IN ONE SLOT
 @onready var radical_slot_1 = $main_container/center_container/kanji_container/radical_list_container/radical_1
 @onready var radical_slot_2 = $main_container/center_container/kanji_container/radical_list_container/radical_2
 @onready var radical_slot_3 = $main_container/center_container/kanji_container/radical_list_container/radical_3
@@ -71,14 +72,60 @@ func reproduce_kanji(kanji):
 func configure_radicals(index):
 	var kanji_structure = Global.kanji[index]["structure"]
 	var radical_slots = convert_structure_to_num_of_radical_slots(kanji_structure)
+
+	#SLOT 1
+	var radical_slot_1_array = Global.kanji[index][1]
+	var no_radicals = radical_slot_1_array.size() #AMOUNT OF RADICALS IN SLOT
+	var radical_mini_slots = radical_slot_1.get_node("radical_container").get_children()
 	
-	if radical_slots == 1:
-		var no_radicals = Global.kanji[index][1].size()
-		radical_slot_2.hide()
+	#HIDE OTHER SLOTS ACCORDINGLY
+	if radical_slots == 3:
+		radical_slot_2.show()
+		radical_slot_3.show()
+	if radical_slots == 2:
 		radical_slot_3.hide()
+		radical_slot_2.show()
+	if radical_slots == 1:
+		radical_slot_3.hide()
+		radical_slot_2.hide()
+	
+	radical_slot_1.get_node("radical_container").columns = no_radicals_to_columns(no_radicals)
+	for i in range(16):
+		if i in range(no_radicals):
+			radical_mini_slots[i].show()
+			radical_mini_slots[i].text = radical_slot_1_array[i]
+			
+		else:
+			radical_mini_slots[i].hide()
+			
+	if radical_slots == 3:
+		var radical_slot_3_array = Global.kanji[index][3]
+		var no_radicals_3 = radical_slot_3_array.size() #AMOUNT OF RADICALS IN SLOT
+		var radical_mini_slots_3 = radical_slot_3.get_node("radical_container").get_children()
 		
-		radical_slot_1.get_node("radical_container").columns = no_radicals_to_columns(no_radicals)
+		radical_slot_3.get_node("radical_container").columns = no_radicals_to_columns(no_radicals_3)
+		for i in range(16):
+			if i in range(no_radicals_3):
+				radical_mini_slots_3[i].show()
+				radical_mini_slots_3[i].text = radical_slot_3_array[i]
+				
+			else:
+				radical_mini_slots_3[i].hide()
+	
+	if radical_slots > 1:
+		var radical_slot_2_array = Global.kanji[index][2]
+		var no_radicals_2 = radical_slot_2_array.size() #AMOUNT OF RADICALS IN SLOT
+		var radical_mini_slots_2 = radical_slot_2.get_node("radical_container").get_children()
 		
+		radical_slot_2.get_node("radical_container").columns = no_radicals_to_columns(no_radicals_2)
+		for i in range(16):
+			if i in range(no_radicals_2):
+				radical_mini_slots_2[i].show()
+				radical_mini_slots_2[i].text = radical_slot_2_array[i]
+				
+			else:
+				radical_mini_slots_2[i].hide()
+			
 	
 func convert_structure_to_num_of_radical_slots(structure):
 	if structure == 3 or structure == 11:
@@ -88,4 +135,12 @@ func convert_structure_to_num_of_radical_slots(structure):
 	return 2
 
 func no_radicals_to_columns(radical_num):
-	pass
+	#ASSUMING NO KANJI HAS MORE THAN 16 RADICALS IN ONE SLOT
+	if radical_num == 1:
+		return 1
+	if radical_num == 2 or radical_num == 4:
+		return 2
+	if radical_num == 3 or radical_num == 5 or radical_num == 6:
+		return 3
+	else:
+		return 4
