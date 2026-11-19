@@ -1,0 +1,73 @@
+[gd_scene format=3 uid="uid://bocpcamsqi2uf"]
+
+[ext_resource type="Script" uid="uid://d5vgtpljlwpy" path="res://Scripts/playing_menu.gd" id="1_y6j0b"]
+
+[node name="playing_menu" type="Control" unique_id=172309994]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_y6j0b")
+
+[node name="main_container" type="HBoxContainer" parent="." unique_id=881890584]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Control" type="Control" parent="main_container" unique_id=590228922]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="game_mode_container" type="VBoxContainer" parent="main_container" unique_id=719888648]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 2.0
+
+[node name="Control" type="Control" parent="main_container/game_mode_container" unique_id=384455815]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Control4" type="Label" parent="main_container/game_mode_container" unique_id=1482319771]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 32
+text = "Choose a game mode."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Control5" type="Control" parent="main_container/game_mode_container" unique_id=1336794371]
+layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.5
+
+[node name="gamemode_btn" type="VBoxContainer" parent="main_container/game_mode_container" unique_id=200912731]
+layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 2.0
+
+[node name="salvage_button" type="Button" parent="main_container/game_mode_container/gamemode_btn" unique_id=1907059894]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 40
+text = "SALVAGE THE KANJI"
+
+[node name="Control3" type="Button" parent="main_container/game_mode_container/gamemode_btn" unique_id=2110971854]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 40
+text = "GUESS THE READING"
+
+[node name="Control3" type="Control" parent="main_container/game_mode_container" unique_id=1096574472]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Control3" type="Control" parent="main_container" unique_id=1762329926]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[connection signal="pressed" from="main_container/game_mode_container/gamemode_btn/salvage_button" to="." method="_on_salvage_button_pressed"]
