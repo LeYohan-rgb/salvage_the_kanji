@@ -1002,10 +1002,9 @@ var kanji : Dictionary = {
 	},
 	152: {
 		"name": "room",
-		"structure": 3,
+		"structure": 2,
 		1: ["roof"],
-		2: ["one", "private"],
-		3: ["earth"],
+		2: ["arrive"],
 		"grade": 2
 	},
 	153: {
@@ -1705,6 +1704,106 @@ var kanji : Dictionary = {
 		"structure": 1,
 		1: ["tree"],
 		2: ["yellow"],
+		"grade": 3
+	},
+	256: {
+		"name": "roof",
+		"structure": 4,
+		1: ["corpse"],
+		2: ["arrive"],
+		"grade": 3
+	},
+	257: {
+		"name": "warm",
+		"structure": 1,
+		1: ["water"],
+		2: ["sun", "dish"],
+		"grade": 3
+	},
+	258: {
+		"name": "change",
+		"structure": 1,
+		1: ["person"],
+		2: ["spoon"],
+		"grade": 3
+	},
+	259: {
+		"name": "luggage",
+		"structure": 2,
+		1: ["grass"],
+		2: ["man", "one", "mouth", "hook"],
+		"grade": 3
+	},
+	260: {
+		"name": "world",
+		"structure": 2,
+		1: ["field", "man"],
+		2: ["legs"],
+		"grade": 3
+	},
+	261: {
+		"name": "world",
+		"structure": 3,
+		1: ["field"],
+		2: ["man"],
+		3: ["legs"],
+		"grade": 3
+	},
+	262: {
+		"name": "open",
+		"structure": 7,
+		1: ["gates"],
+		2: ["one", "two hands"],
+		"grade": 3
+	},
+	263: {
+		"name": "floor of a building",
+		"structure": 1,
+		1: ["mound"],
+		2: ["compare", "white"],
+		"grade": 3
+	},
+	264: {
+		"name": "cold",
+		"structure": 3,
+		1: ["roof"],
+		2: ["two", "line", "line", "one", "eight"],
+		3: ["dot", "dot"],
+		"grade": 3
+	},
+	265: {
+		"name": "feeling",
+		"structure": 2,
+		1: ["cliff", "one", "mouth", "halberd"],
+		2: ["heart"],
+		"grade": 3
+	},
+	266: {
+		"name": "China",
+		"structure": 1,
+		1: ["water"],
+		2: ["grass", "mouth", "two", "person"],
+		"grade": 3
+	},
+	267: {
+		"name": "public building",
+		"structure": 1,
+		1: ["eat"],
+		2: ["roof", "mouth", "second", "one"],
+		"grade": 3
+	},
+	268: {
+		"name": "beach",
+		"structure": 2,
+		1: ["mountain"],
+		2: ["cliff", "pestle"],
+		"grade": 3
+	},
+	269: {
+		"name": "wake up",
+		"structure": 1,
+		1: ["run"],
+		2: ["oneself"],
 		"grade": 3
 	},
 }
