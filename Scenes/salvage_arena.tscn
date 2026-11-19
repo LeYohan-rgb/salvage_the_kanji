@@ -17,3 +17,120 @@ script = ExtResource("1_nmltm")
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
+
+[node name="main_container" type="HBoxContainer" parent="." unique_id=1500525325]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Control" type="Control" parent="main_container" unique_id=520155309]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="center_container" type="VBoxContainer" parent="main_container" unique_id=1512565429]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 3.0
+
+[node name="kanji_meter_container" type="Control" parent="main_container/center_container" unique_id=209062530]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ColorRect" type="ColorRect" parent="main_container/center_container/kanji_meter_container" unique_id=452537380]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="time_container" type="Control" parent="main_container/center_container" unique_id=691080118]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="time_bar" type="ProgressBar" parent="main_container/center_container/time_container" unique_id=1692621307]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+offset_transform_enabled = true
+offset_transform_scale = Vector2(0.9, 0.3)
+show_percentage = false
+
+[node name="kanji_container" type="HBoxContainer" parent="main_container/center_container" unique_id=1488369412]
+layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 4.0
+
+[node name="radical_list_container" type="VBoxContainer" parent="main_container/center_container/kanji_container" unique_id=296227806]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Control" type="Control" parent="main_container/center_container/kanji_container/radical_list_container" unique_id=98429328]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Control2" type="Control" parent="main_container/center_container/kanji_container/radical_list_container" unique_id=1407884288]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Control3" type="Control" parent="main_container/center_container/kanji_container/radical_list_container" unique_id=1122382694]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="kanji_box_container" type="Control" parent="main_container/center_container/kanji_container" unique_id=1370593828]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ColorRect" type="ColorRect" parent="main_container/center_container/kanji_container/kanji_box_container" unique_id=979302747]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="message_container" type="Control" parent="main_container/center_container" unique_id=195211423]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="message_label" type="Label" parent="main_container/center_container/message_container" unique_id=238368225]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+text = "WRONG!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="button_container" type="HBoxContainer" parent="main_container/center_container" unique_id=1227079034]
+layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 2.0
+theme_override_constants/separation = 20
+
+[node name="Button" type="Button" parent="main_container/center_container/button_container" unique_id=801090822]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+size_flags_horizontal = 3
+offset_transform_enabled = true
+offset_transform_scale = Vector2(1, 0.7)
+
+[node name="Button2" type="Button" parent="main_container/center_container/button_container" unique_id=929608096]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+size_flags_horizontal = 3
+offset_transform_enabled = true
+offset_transform_scale = Vector2(1, 0.7)
+
+[node name="Control3" type="Control" parent="main_container" unique_id=1103943657]
+layout_mode = 2
+size_flags_horizontal = 3
