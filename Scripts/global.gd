@@ -1172,7 +1172,7 @@ var kanji : Dictionary = {
 	177: {
 		"name": "in front",
 		"structure": 2,
-		1: ["dot", "slash", "one"],
+		1: ["eight", "one"],
 		2: ["moon", "sword"],
 		"grade": 2
 	},
@@ -1242,7 +1242,7 @@ var kanji : Dictionary = {
 		"structure": 3,
 		1: ["grass"],
 		2: ["man"],
-		3: ["ten", "slash", "dot"],
+		3: ["ten", "eight"],
 		"grade": 2
 	},
 	188: {
@@ -1288,7 +1288,7 @@ var kanji : Dictionary = {
 	194: {
 		"name": "younger brother",
 		"structure": 2,
-		1: ["dot", "slash"],
+		1: ["eight"],
 		2: ["bow", "line", "slash"],
 		"grade": 2
 	},
@@ -1386,7 +1386,7 @@ var kanji : Dictionary = {
 		"name": "south",
 		"structure": 7,
 		1: ["ten", "wide"],
-		2: ["dot", "slash", "pestle"],
+		2: ["eight", "pestle"],
 		"grade": 2
 	},
 	209: {
@@ -1742,28 +1742,20 @@ var kanji : Dictionary = {
 		"grade": 3
 	},
 	261: {
-		"name": "world",
-		"structure": 3,
-		1: ["field"],
-		2: ["man"],
-		3: ["legs"],
-		"grade": 3
-	},
-	262: {
 		"name": "open",
 		"structure": 7,
 		1: ["gates"],
 		2: ["one", "two hands"],
 		"grade": 3
 	},
-	263: {
+	262: {
 		"name": "floor of a building",
 		"structure": 1,
 		1: ["mound"],
 		2: ["compare", "white"],
 		"grade": 3
 	},
-	264: {
+	263: {
 		"name": "cold",
 		"structure": 3,
 		1: ["roof"],
@@ -1771,39 +1763,161 @@ var kanji : Dictionary = {
 		3: ["dot", "dot"],
 		"grade": 3
 	},
-	265: {
+	264: {
 		"name": "feeling",
 		"structure": 2,
 		1: ["cliff", "one", "mouth", "halberd"],
 		2: ["heart"],
 		"grade": 3
 	},
-	266: {
+	265: {
 		"name": "China",
 		"structure": 1,
 		1: ["water"],
 		2: ["grass", "mouth", "two", "person"],
 		"grade": 3
 	},
-	267: {
+	266: {
 		"name": "public building",
 		"structure": 1,
 		1: ["eat"],
 		2: ["roof", "mouth", "second", "one"],
 		"grade": 3
 	},
-	268: {
+	267: {
 		"name": "beach",
 		"structure": 2,
 		1: ["mountain"],
 		2: ["cliff", "pestle"],
 		"grade": 3
 	},
-	269: {
+	268: {
 		"name": "wake up",
 		"structure": 1,
 		1: ["run"],
 		2: ["oneself"],
 		"grade": 3
+	},
+	269: {
+		"name": "period of time",
+		"structure": 1,
+		1: ["sweet", "one", "eight"],
+		2: ["moon"],
+		"grade": 3
+	},
+	270: {
+		"name": "guest",
+		"structure": 3,
+		1: ["roof"],
+		2: ["go"],
+		3: ["mouth"],
+		"grade": 3
+	},
+	271: {
+		"name": "research",
+		"structure": 2,
+		1: ["cave"],
+		2: ["slash", "second"],
+		"grade": 3
+	},
+	272: {
+		"name": "hurry",
+		"structure": 3,
+		1: ["wrap"],
+		2: ["pig's head"],
+		3: ["heart"],
+		"grade": 3
+	},
+	273: {
+		"name": "rank",
+		"structure": 1,
+		1: ["thread"],
+		2: ["slash", "second", "slash", "dot"],
+		"grade": 3
+	},
+	274: {
+		"name": "Shinto shrine",
+		"structure": 2,
+		1: ["roof"],
+		2: ["mouth", "slash", "mouth"],
+		"grade": 3
+	},
+	275: {
+		"name": "sphere",
+		"structure": 1,
+		1: ["king"],
+		2: ["one", "water", "dot"],
+		"grade": 3
+	},
+	276: {
+		"name": "leave",
+		"structure": 2,
+		1: ["earth"],
+		2: ["private"],
+		"grade": 3
+	},
+	277: {
+		"name": "bridge",
+		"structure": 1,
+		1: ["tree"],
+		2: ["slash", "big", "mouth", "wide", "mouth"],
+		"grade": 3
+	},
+	278: {
+		"name": "business",
+		"structure": 2,
+		1: ["line", "line", "eight", "one"],
+		2: ["sheep", "man"],
+		"grade": 3,
+	},
+	279: {
+		"name": "musical composition",
+		"structure": 12,
+		1: ["sun", "line", "line"],
+		"grade": 3,
+	},
+	280: {
+		"name": "office",
+		"structure": 4,
+		1: ["corpse"],
+		2: ["wrap", "mouth"],
+		"grade": 3,
+	},
+	281: {
+		"name": "silver",
+		"structure": 1,
+		1: ["gold"],
+		2: ["stopping"],
+		"grade": 3,
+	},
+	282: {
+		"name": "ward",
+		"structure": 9,
+		1: ["box"],
+		2: ["slash", "dot"],
+		"grade": 3,
+	},
+	283: {
+		"name": "suffer",
+		"structure": 3,
+		1: ["grass"],
+		2: ["ten"],
+		3: ["mouth"],
+		"grade": 3,
+	},
+	284: {
+		"name": "tool",
+		"structure": 3,
+		1: ["eye"],
+		2: ["one"],
+		3: ["eight"],
+		"grade": 3,
+	},
+	285: {
+		"name": "you",
+		"structure": 2,
+		1: ["pig's head", "slash"],
+		2: ["mouth"],
+		"grade": 3,
 	},
 }
